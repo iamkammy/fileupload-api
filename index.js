@@ -20,7 +20,7 @@ const fileFilter = function (req,file,cb,next){
     cb(null, true);
 }
 
-const MAX_SIZE = 20000;
+const MAX_SIZE = 20000000;
 const upload = multer ({
     dest: './uploads/',
     fileFilter,
