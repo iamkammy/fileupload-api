@@ -52,7 +52,8 @@ app.get('/api', function(req,res){
     res.status(200).json([
         { api: 'kamran'},
         { api2: 'faizan'},
-        { api3 : 'imran'}
+        { api3 : 'imran'},
+        {api4 : 'faizan'}
     ])
 })
 
