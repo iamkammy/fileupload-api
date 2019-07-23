@@ -5,7 +5,7 @@ const app = express();
 const port = process.env.PORT || 3344;
 
 app.use(cors({
-    origin:'https://vueuploader.herokuapp.com/'
+    origin:'https://vueuploader.herokuapp.com'
 }))
 
 
