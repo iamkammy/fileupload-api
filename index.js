@@ -11,7 +11,7 @@ app.use(cors({
 
 
 const fileFilter = function (req,file,cb,next){
-    const allowedTypes = ["image/jpeg", "image/png", "image/gif"];
+    const allowedTypes = ["image/jpeg", "image/png", "image/webp", "image/gif"];
     if(!allowedTypes.includes(file.mimetype)){
         const error = new Error("Wrong File Type");
         error.code = "LIMIT_FILE_TYPES";
